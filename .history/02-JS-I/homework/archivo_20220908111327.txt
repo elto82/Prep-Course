@@ -1,0 +1,9 @@
+* Variable: es una especie de caja donde podemos guardar alguna informacion o dato para tenerla a la mano.
+
+	* Strings: es un tipo de dato utilizado para programar como puede ser una letra o cadenas que serían varias letras o una palabra. 
+
+	* Funciones (argumentos, `return`): es un trozo de código que nos permite reutilizar código cuando identificamos algo repetitivo que podemos invocar en el momento que necesitemos. 
+
+	* Declaraciones `if`: es un proceso que nos permite tomar decisiones según sea verdadero o falso. 
+
+	* Valores booleanos (`true`, `false`): es un tipo de datos que se utilizan más que todo para realizar comparaciones. 
