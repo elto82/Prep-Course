@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return str
+  return 'str'
 }
 
 function suma(x, y) {
@@ -235,7 +235,7 @@ function esVocal(letra){
   //Escribe tu código aquí
   if (letra.length > 1) {
     return "Dato incorrecto"
-  } else if (letra == 'a' || letra == 'e' || letra == 'i' || letra == 'o' || letra == 'u') {
+  } else if (letra === a || letra === e || letra === i || letra === o || letra === u) {
     return 'Es vocal'
   } else {
     return "Dato incorrecto"
