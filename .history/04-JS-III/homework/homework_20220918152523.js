@@ -262,11 +262,10 @@ function continueStatement(numero) {
   for(let i = 0;i < 10; i++){
     if(i === 5) continue
     else{
-      suma = suma + 2
-      sumaNumero.push(suma)
+      
     }
+    sumaNumero[i] = numero
   }
-  return sumaNumero
 }
 
 // No modificar nada debajo de esta línea

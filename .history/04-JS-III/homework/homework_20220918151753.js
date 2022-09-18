@@ -241,8 +241,7 @@ function breakStatement(numero) {
   for (let i = 0; i < 10; i++) {
     suma = suma + 2
     if(suma === i){
-      return 'Se interrumpió la ejecución'
-      break 
+      break
     } else{
       arraynumero.push(suma)
     }
@@ -257,16 +256,6 @@ function continueStatement(numero) {
   //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua con la siguiente iteración
   //Pista: usá el statement 'continue'
   // Tu código:
- const sumaNumero = []
- let suma = numero
-  for(let i = 0;i < 10; i++){
-    if(i === 5) continue
-    else{
-      suma = suma + 2
-      sumaNumero.push(suma)
-    }
-  }
-  return sumaNumero
 }
 
 // No modificar nada debajo de esta línea
