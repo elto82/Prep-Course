@@ -29,6 +29,7 @@ function incrementarPorUno(array) {
     incremento1.push(array[i] + 1);
   }
   return incremento1;
+
 }
 
 function agregarItemAlFinalDelArray(array, elemento) {
